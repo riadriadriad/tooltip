@@ -1,0 +1,66 @@
+.map{
+    width: 50%;
+    height: 60vh;
+    border-style: solid;
+    border-width: 1px;
+}
+.body{
+    display: flex ;
+    width: 100%     ;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+table{
+    width: 50%;
+    height: 30%;
+}
+.input{
+    width: 60vw;
+    }
+.table{
+    width: 50%;
+}
+/* Styles for the table container */
+
+
+/* Styles for the table */
+.styled-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10px   ;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for table headers */
+.styled-table thead {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.styled-table th {
+    padding:5px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Styles for table rows */
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.styled-table td {
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styles for table rows on hover */
+.styled-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
